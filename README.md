@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-![Project Pipeline]()
+![Project Pipeline](https://github.com/sashi789/Walmart_Anlaysis_SQL/blob/3460d57f1e96d2c9f681f6664fa455538eceef6e/walmart_project-piplelines.png)
 
 
 This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
