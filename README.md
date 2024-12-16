@@ -69,6 +69,27 @@ This project is an end-to-end data analysis solution designed to extract critica
      - Jupyter Notebooks (if applicable).
      - SQL query scripts.
      - Data files (if possible) or steps to access them.
+### 11. Power BI Dashboard: Visualization and Insights
+-After loading the cleaned data into PostgreSQL, I connected Power BI for interactive data visualization. Below are the key insights and visualizations created:
+
+-Key Visualizations:
+-Total Transactions by Payment Method:
+-Visualizes customer preferences for Cash, Ewallet, and Credit Card.
+
+-Top 5 Rated Branches:
+-Shows the branches with the highest customer ratings.
+
+-Quantity Sold by Category:
+-Highlights the performance of different product categories.
+
+-Average Order Value (AOV):
+-Displays the average transaction value across all sales.
+
+-Average Profit Margin:
+-Analyzes profit margin trends across branches and categories.
+
+-Matrix Visualization:
+-Compares Branches by Category Sales and calculates Totals for each.
 
 ---
 
@@ -116,7 +137,6 @@ This section will include your analysis findings:
 ## Future Enhancements
 
 Possible extensions to this project:
-- Integration with a dashboard tool (e.g., Power BI or Tableau) for interactive visualization.
 - Additional data sources to enhance analysis depth.
 - Automation of the data pipeline for real-time data ingestion and analysis.
 
