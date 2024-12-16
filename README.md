@@ -71,7 +71,7 @@ This project is an end-to-end data analysis solution designed to extract critica
      - Data files (if possible) or steps to access them.
 ### 11. Power BI Dashboard: Visualization and Insights
 -After loading the cleaned data into PostgreSQL, I connected Power BI for interactive data visualization. Below are the key insights and visualizations created:
-
+**Link to the visualization**: https://github.com/sashi789/Walmart_Anlaysis_SQL/blob/2a3021b151443afed57bcc2c2ee3e0f650562dc3/Walmart_Sales_visualization.png
 -Key Visualizations:
 -Total Transactions by Payment Method:
 -Visualizes customer preferences for Cash, Ewallet, and Credit Card.
