@@ -1,0 +1,23 @@
+Average Order Value = 
+DIVIDE(
+    SUM('public walmart'[Total_sales]),
+    DISTINCTCOUNT('public walmart'[invoice_id]),
+    0
+)
+-----------
+Total Quantity = SUM('Table'[quantity])
+--------------------------------------
+Average Profit Margin = AVERAGE('Table'[profit_margin])
+------------
+
+Average Rating = AVERAGE('public walmart'[rating])
+--------
+Branch Rating Rank = 
+RANKX(
+    ALL('public walmart'[Branch]),  // Remove any filters on Branch
+    [Average Rating],  // The measure to rank by
+    , 
+    DESC,  // Order in descending (highest ratings first)
+    Dense   // Handle ties by assigning the same rank to tied values
+)
+------------------
